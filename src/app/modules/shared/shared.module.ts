@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 
 import { HeaderComponent } from 'src/app/components/shared/header/header.component';
 import { SidenavComponent } from 'src/app/components/shared/sidenav/sidenav.component';
@@ -16,6 +17,7 @@ import { FooterComponent } from 'src/app/components/shared/footer/footer.compone
     FooterComponent
   ],
   imports: [
+    BrowserModule,
     CommonModule
   ],
   exports: [
