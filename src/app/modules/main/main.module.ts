@@ -8,14 +8,12 @@ import { SharedModule } from '../shared/shared.module';
 import { MainComponent } from './main.component';
 import { DashboardComponent } from 'src/app/components/main/dashboard/dashboard.component';
 import { UsersComponent } from 'src/app/components/main/users/users.component';
-import { PagenotfoundComponent } from 'src/app/components/main/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     MainComponent,
     DashboardComponent,
-    UsersComponent,
-    PagenotfoundComponent
+    UsersComponent
   ],
   imports: [
     BrowserModule,
@@ -26,8 +24,7 @@ import { PagenotfoundComponent } from 'src/app/components/main/pagenotfound/page
   exports: [
     MainComponent,
     DashboardComponent,
-    UsersComponent,
-    PagenotfoundComponent
+    UsersComponent
   ]
 })
 
