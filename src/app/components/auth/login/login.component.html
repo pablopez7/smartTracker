@@ -1,46 +1,45 @@
-  <div class="container">
-    <div class="row auth">
-      <div class="col s12 m8 offset-m2 l6 offset-l3">
-        <div class="card z-depth-5">
-          <div class="card-action">
-            <h3 class="center-align"><i class="material-icons medium">location_on</i>SmartTracker</h3>
-          </div>
-          <div class="card-content">
-            <div class="row">
-              <form class="col s12" action="#">
-                <div class="row">
-                  <div class="input-field col s12">
-                    <i class="material-icons prefix">account_circle</i>
-                    <input id="email" type="email" class="validate">
-                    <label for="email">Email</label>
-                    <span class="helper-text" data-error="El correo no es valido" data-success="Ok"></span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <i class="material-icons prefix">phone</i>
-                    <input id="password" type="password" class="validate">
-                    <label for="password">Password</label>
-                    <span class="helper-text" data-error="Contraseña no valida" data-success="Ok">Helper text</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <label>
-                      <input type="checkbox" />
-                      <span>Recordarme</span>
-                    </label>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <button class="waves-effect waves-light btn right light-blue darken-4"><i class="material-icons right">gps_fixed</i>Entrar</button>
-                  </div>
-                </div>
-              </form>
-            </div>
+<div id="login-page" class="row">
+    <div class="col s12 z-depth-4 card-panel">
+      <form class="login-form">
+        <div class="row">
+          <div class="input-field col s12 center">
+            <img src="assets/images/logo/login-logo.png" alt="" class="circle responsive-img valign profile-image-login">
+            <p class="center login-form-text">Material Design Admin Template</p>
           </div>
         </div>
-      </div>
+        <div class="row margin">
+          <div class="input-field col s12">
+            <i class="material-icons prefix pt-5">person_outline</i>
+            <input id="username" type="text">
+            <label for="username" class="center-align">Username</label>
+          </div>
+        </div>
+        <div class="row margin">
+          <div class="input-field col s12">
+            <i class="material-icons prefix pt-5">lock_outline</i>
+            <input id="password" type="password">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m12 l12 ml-2 mt-3">
+            <input type="checkbox" id="remember-me" />
+            <label for="remember-me">Remember me</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <a href="index.html" class="btn waves-effect waves-light col s12">Login</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s6 m6 l6">
+            <p class="margin medium-small"><a href="page-register.html">Register Now!</a></p>
+          </div>
+          <div class="input-field col s6 m6 l6">
+            <p class="margin right-align medium-small"><a href="page-forgot-password.html">Forgot password ?</a></p>
+          </div>
+        </div>
+      </form>
     </div>
   </div>

@@ -1,14 +1,12 @@
-
-/* label color */
-.input-field label {
-  color: #000;
+html,
+body {
+    height: 100%;
 }
-
-/* icon prefix focus color */
-.input-field .prefix.active {
-  color: #045FB4;
+html {
+    display: table;
+    margin: auto;
 }
-
-.auth{
-  margin-top: 10%;
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
